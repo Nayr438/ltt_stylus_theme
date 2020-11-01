@@ -218,3 +218,7 @@ html[dir="ltr"] .ipsDataList.ipsDataList_reducedSpacing .ipsDataItem_icon + .ips
     background-size: 350px 61.75px;
     min-width: 350px;
 }
+
+.ipsComment_meta .ipsType_reset {
+    max-width: 120px;
+}
