@@ -186,3 +186,12 @@ html[dir="ltr"] .ipsDataList.ipsDataList_reducedSpacing .ipsDataItem_icon + .ips
 .ipsDataItem {
     border-width: 0 0 2px 0;
 }
+
+.ipsBadge {
+    line-height: 1.5;
+}
+
+.ipsComment .ipsComment_authorBadge {
+    background-color: black;
+    color: #b77600;
+}
