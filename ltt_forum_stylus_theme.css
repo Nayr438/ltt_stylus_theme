@@ -235,7 +235,7 @@
     /* SubForum Banner Spacing */
     .ipsMargin_vertical\:half,
     .ipsMargin_bottom\:half {
-        margin-bottom: 0px;
+        margin-bottom: 5px !important;
     }
 
 
