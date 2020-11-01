@@ -126,7 +126,7 @@ html[dir="ltr"] .ipsDataList.ipsDataList_reducedSpacing .ipsDataItem_icon + .ips
 }
 
 .ipsTabs {
-    --ipsTabs--padding: 10px;
+    --ipsTabs--padding: 8px;
 }
 
 .ipsTabs_item {
@@ -159,4 +159,8 @@ html[dir="ltr"] .ipsDataList.ipsDataList_reducedSpacing .ipsDataItem_icon + .ips
 .ipsApp .ipsFieldRow_primary input[type="tel"],
 .ipsApp .ipsFieldRow_primary .ipsField_dummy {
     padding: 0px;
+}
+
+.ipsHovercard {
+    box-shadow: none !important;
 }
