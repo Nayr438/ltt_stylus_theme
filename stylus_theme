@@ -1,0 +1,56 @@
+ .ipsDataList_large .ipsDataItem_main,
+ .ipsDataList_large .ipsDataItem_stats,
+ .ipsDataList_large .ipsDataItem_lastPoster,
+ .ipsDataList_large .ipsDataItem_generic {
+     padding: 10px;
+ }
+
+ .cForumList .ipsDataItem_title {
+     font-size: 16px;
+ }
+
+ .ipsDataItem_lastPoster__title {
+     font-size: 13px;
+ }
+
+ .ipsPageHeader {
+     position: relative;
+     margin-bottom: 10px;
+     padding: 7px;
+ }
+
+ .ipsBreadcrumb_top {
+     margin: 0px 0px 10px 0px;
+ }
+
+ #secondaryNav > ul > li > a {
+     font-size: 12px;
+     font-weight: 500;
+     padding: 0 15px;
+ }
+
+ .ipsPad_half,
+ .ipsApp ul.ipsPad_half,
+ .ipsApp ol.ipsPad_half {
+     padding: 5px;
+ }
+
+ .ipsWidget.ipsWidget_vertical .ipsDataList.ipsDataList_reducedSpacing .ipsDataItem_icon {
+     padding-left: 2px !important;
+ }
+
+ html[dir="ltr"] .ipsDataList.ipsDataList_reducedSpacing .ipsDataItem_icon + .ipsDataItem_main {
+     padding-left: 2px;
+ }
+
+ .ipsPadding {
+     padding: 0px;
+ }
+
+ .ipsWidget_stats {
+     padding: 10px;
+ }
+
+ .cForumList .ipsDataItem_title {
+     font-size: 14px !important;
+ }
