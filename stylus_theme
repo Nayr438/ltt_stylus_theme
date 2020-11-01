@@ -1,56 +1,110 @@
- .ipsDataList_large .ipsDataItem_main,
- .ipsDataList_large .ipsDataItem_stats,
- .ipsDataList_large .ipsDataItem_lastPoster,
- .ipsDataList_large .ipsDataItem_generic {
-     padding: 10px;
- }
+ body {
+    font-size: 12px;
+}
 
- .cForumList .ipsDataItem_title {
-     font-size: 16px;
- }
+.ipsDataList_large .ipsDataItem_main,
+.ipsDataList_large .ipsDataItem_stats,
+.ipsDataList_large .ipsDataItem_lastPoster,
+.ipsDataList_large .ipsDataItem_generic {
+    padding: 10px;
+}
 
- .ipsDataItem_lastPoster__title {
-     font-size: 13px;
- }
+.cForumList .ipsDataItem_title {
+    font-size: 16px;
+}
 
- .ipsPageHeader {
-     position: relative;
-     margin-bottom: 10px;
-     padding: 7px;
- }
+.ipsDataItem_lastPoster__title {
+    font-size: 12px !important;
+}
 
- .ipsBreadcrumb_top {
-     margin: 0px 0px 10px 0px;
- }
+.ipsPageHeader {
+    position: relative;
+    margin-bottom: 20px !important;
+    padding: 7px;
+}
 
- #secondaryNav > ul > li > a {
-     font-size: 12px;
-     font-weight: 500;
-     padding: 0 15px;
- }
+.ipsBreadcrumb_top {
+    margin: 0px 0px 10px 0px;
+}
 
- .ipsPad_half,
- .ipsApp ul.ipsPad_half,
- .ipsApp ol.ipsPad_half {
-     padding: 5px;
- }
+#secondaryNav > ul > li > a {
+    font-size: 12px;
+    font-weight: 500;
+    padding: 0 15px;
+}
 
- .ipsWidget.ipsWidget_vertical .ipsDataList.ipsDataList_reducedSpacing .ipsDataItem_icon {
-     padding-left: 2px !important;
- }
+.ipsPad_half,
+.ipsApp ul.ipsPad_half,
+.ipsApp ol.ipsPad_half {
+    padding: 5px;
+}
 
- html[dir="ltr"] .ipsDataList.ipsDataList_reducedSpacing .ipsDataItem_icon + .ipsDataItem_main {
-     padding-left: 2px;
- }
+.ipsWidget.ipsWidget_vertical .ipsDataList.ipsDataList_reducedSpacing .ipsDataItem_icon {
+    padding-left: 2px !important;
+}
 
- .ipsPadding {
-     padding: 0px;
- }
+html[dir="ltr"] .ipsDataList.ipsDataList_reducedSpacing .ipsDataItem_icon + .ipsDataItem_main {
+    padding-left: 2px;
+}
 
- .ipsWidget_stats {
-     padding: 10px;
- }
+.ipsPadding {
+    padding: 8px !important;
+}
 
- .cForumList .ipsDataItem_title {
-     font-size: 14px !important;
- }
+.ipsWidget_stats {
+    padding: 10px;
+}
+
+.cForumList .ipsDataItem_title {
+    font-size: 14px !important;
+}
+
+.ipsBreadcrumb {
+    font-size: 13px;
+    padding: 10px 0 8px;
+}
+
+.ipsType_sectionTitle {
+    font-size: 16px;
+    padding: 5px 15px 5px 15px;
+    margin-top: 0;
+}
+
+.ipsWidget_title {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.ipsType_medium {
+    font-size: 12px;
+}
+
+.ipsPhotoPanel > .ipsUserPhoto {
+    margin: 8px 0px;
+}
+
+.ipsPad,
+.ipsApp ul.ipsPad,
+.ipsApp ol.ipsPad {
+    padding: 10px !important;
+}
+
+.lmg-card .card-img-a {
+    width: unset !important;
+    margin: unset;
+}
+
+.ipsDataItem_main,
+.ipsDataItem_stats,
+.ipsDataItem_lastPoster,
+.ipsDataItem_generic,
+.ipsDataItem_modCheck,
+.ipsDataItem_icon {
+    padding: 10px;
+}
+
+.ipsDataItem_statsLarge .ipsDataItem_stats_number {
+    font-size: 16px;
+    line-height: 1.3;
+}
