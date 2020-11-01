@@ -177,3 +177,12 @@ html[dir="ltr"] .ipsDataList.ipsDataList_reducedSpacing .ipsDataItem_icon + .ips
     font-weight: bold;
     font-size: 14px;
 }
+
+.cForumList .ipsDataItem {
+    border-bottom-width: 0;
+    border-top-width: 2px !important;
+}
+
+.ipsDataItem {
+    border-width: 0 0 2px 0;
+}
