@@ -110,7 +110,7 @@ html[dir="ltr"] .ipsDataList.ipsDataList_reducedSpacing .ipsDataItem_icon + .ips
 }
 
 .ipsDataItem_lastPoster .ipsUserPhoto {
-    margin: 0px 10px 0 -50px;
+    margin: 5px 10px 0px -50px;
 }
 
 .ipsPhotoPanel > .ipsUserPhoto {
