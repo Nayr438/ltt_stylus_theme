@@ -81,7 +81,7 @@ html[dir="ltr"] .ipsDataList.ipsDataList_reducedSpacing .ipsDataItem_icon + .ips
 }
 
 .ipsPhotoPanel > .ipsUserPhoto {
-    margin: 8px 0px;
+    margin: 4px 0px !important;
 }
 
 .ipsPad,
@@ -163,4 +163,17 @@ html[dir="ltr"] .ipsDataList.ipsDataList_reducedSpacing .ipsDataItem_icon + .ips
 
 .ipsHovercard {
     box-shadow: none !important;
+}
+
+.ipsPadding\:half {
+    padding: 5px !important;
+}
+
+.lmg-card h2 {
+    font-size: 14px;
+}
+
+.lmg-card h3 {
+    font-weight: bold;
+    font-size: 14px;
 }
