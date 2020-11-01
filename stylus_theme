@@ -190,3 +190,12 @@ html[dir="ltr"] .ipsDataList.ipsDataList_reducedSpacing .ipsDataItem_icon + .ips
 .ipsBadge {
     line-height: 1.5;
 }
+
+.ipsQuote_citation,
+.ipsSpoiler_header {
+    padding: 5px;
+}
+
+.lmgComment_footer {
+    padding: 0px 0px 0px 2px;
+}
