@@ -22,12 +22,6 @@
         min-width: 350px;
     }
 
-    /* Set max width on post date to prevent Author Badge Overlap */
-    /* Wraps around, might do something diffrent later */
-    .ipsComment_meta .ipsType_reset {
-        max-width: 120px;
-    }
-
     /* Hovercard Padding */
     .ipsTabs {
         --ipsTabs--padding: 8px;
@@ -162,11 +156,17 @@
     /*Author Badge */
     .ipsComment .ipsComment_authorBadge {
         position: absolute;
-        left: 140px;
+        left: 148px;
         top: 13px;
         background-color: grey;
         color: darkorange;
         content: "Original Poster" !important;
+    }
+
+    /* Set max width on post date to prevent Author Badge Overlap */
+    /* Wraps around, might do something diffrent later */
+    .ipsComment_meta .ipsType_reset {
+        max-width: 130px;
     }
 
     /* Post User Area */
