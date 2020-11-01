@@ -1,4 +1,4 @@
 # ltt_stylus_theme
-A Stylus theme to make the Linus Tech Tips Forum more tolerable.
+A custom Stylus Theme for The Linus Tech Tips Forum.
 
 Suggestions are more than welcome.
