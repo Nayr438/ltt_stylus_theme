@@ -1,4 +1,4 @@
- body {
+body {
     font-size: 12px;
 }
 
@@ -107,4 +107,56 @@ html[dir="ltr"] .ipsDataList.ipsDataList_reducedSpacing .ipsDataItem_icon + .ips
 .ipsDataItem_statsLarge .ipsDataItem_stats_number {
     font-size: 16px;
     line-height: 1.3;
+}
+
+.ipsDataItem_lastPoster .ipsUserPhoto {
+    margin: 0px 10px 0 -50px;
+}
+
+.ipsPhotoPanel > .ipsUserPhoto {
+    margin: 0px;
+}
+
+.ipsType_pageTitle {
+    font-size: 20px;
+}
+
+.ipsType_sectionHead {
+    font-size: 16px;
+}
+
+.ipsTabs {
+    --ipsTabs--padding: 10px;
+}
+
+.ipsTabs_item {
+    line-height: 2.5;
+    font-size: 14px;
+}
+
+.ipsApp .ipsButton_large {
+    line-height: 2.5;
+}
+
+.ipsFieldRow:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.ipsApp .ipsFieldRow_primary .ipsField_autocomplete,
+.ipsApp .ipsFieldRow_primary textarea,
+.ipsApp .ipsFieldRow_primary input[type="text"],
+.ipsApp .ipsFieldRow_primary input[type="password"],
+.ipsApp .ipsFieldRow_primary input[type="datetime"],
+.ipsApp .ipsFieldRow_primary input[type="datetime-local"],
+.ipsApp .ipsFieldRow_primary input[type="date"],
+.ipsApp .ipsFieldRow_primary input[type="month"],
+.ipsApp .ipsFieldRow_primary input[type="time"],
+.ipsApp .ipsFieldRow_primary input[type="week"],
+.ipsApp .ipsFieldRow_primary input[type="number"],
+.ipsApp .ipsFieldRow_primary input[type="email"],
+.ipsApp .ipsFieldRow_primary input[type="url"],
+.ipsApp .ipsFieldRow_primary input[type="search"],
+.ipsApp .ipsFieldRow_primary input[type="tel"],
+.ipsApp .ipsFieldRow_primary .ipsField_dummy {
+    padding: 0px;
 }
