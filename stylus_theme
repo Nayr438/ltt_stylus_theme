@@ -211,10 +211,10 @@ html[dir="ltr"] .ipsDataList.ipsDataList_reducedSpacing .ipsDataItem_icon + .ips
 }
 
 #elLogo img {
-	visibility: hidden;
+    visibility: hidden;
 }
 #elLogo {
-	background: url("https://raw.githubusercontent.com/Nayr438/ltt_stylus_theme/master/AltLogoBanner_Unofficial_LTT.png") no-repeat left;
+    background: url("https://raw.githubusercontent.com/Nayr438/ltt_stylus_theme/master/images/AltLogoBanner_Unofficial_LTT.png") no-repeat left;
     background-size: 350px 61.75px;
     min-width: 350px;
 }
