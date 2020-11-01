@@ -199,3 +199,13 @@ html[dir="ltr"] .ipsDataList.ipsDataList_reducedSpacing .ipsDataItem_icon + .ips
 .lmgComment_footer {
     padding: 0px 0px 0px 2px;
 }
+
+
+.ipsComment .ipsComment_authorBadge {
+    position: absolute;
+    left: 140px;
+    top: 13px;
+    background-color: grey;
+    color: darkorange;
+    content: "Original Poster" !important;
+}
