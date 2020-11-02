@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           linustechtips.com - 11/1/2020, 7:45:48 AM
 @namespace      https://github.com/Nayr438/ltt_stylus_theme
-@version        1.0.1
+@version        1.1
 @description    A new userstyle
 @author         Nayr438
 ==/UserStyle== */
@@ -125,6 +125,14 @@
     .ipsDataItem_icon {
         padding: 10px;
     }
+    
+    .ipsDataList_large .ipsDataItem_main,
+    .ipsDataList_large .ipsDataItem_stats,
+    .ipsDataList_large .ipsDataItem_lastPoster,
+    .ipsDataList_large .ipsDataItem_lastPoster\:flex,
+    .ipsDataList_large .ipsDataItem_generic {
+        padding: 10px;
+    }
 
     /* Subforum and sidebar Seperator */
     .ipsDataItem {
@@ -237,7 +245,6 @@
     .ipsMargin_bottom\:half {
         margin-bottom: 5px !important;
     }
-
 
 
 
