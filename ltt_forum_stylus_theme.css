@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           linustechtips.com - 11/1/2020, 7:45:48 AM
 @namespace      https://github.com/Nayr438/ltt_stylus_theme
-@version        1.1.4
+@version        1.1.5
 @description    A new userstyle
 @author         Nayr438
 ==/UserStyle== */
@@ -244,6 +244,12 @@
     /* Topic Page Navigation */
     .ipsPadding\:half {
         padding: 6px !important;
+    }
+
+    .ipsCommentCount {
+        padding: 0 5px;
+        min-width: 21px;
+        line-height: 21px;
     }
 
 
