@@ -1,9 +1,11 @@
 /* ==UserStyle==
-@name           linustechtips.com - 11/1/2020, 7:45:48 AM
+@name           LTT Forum Theme v1.1.6
 @namespace      https://github.com/Nayr438/ltt_stylus_theme
-@version        1.1.5
-@description    A new userstyle
 @author         Nayr438
+@description    `A custom Stylus Theme for The Linus Tech Tips Forum. Will work with light or dark theme.`
+@version        1.1.9
+@license        CC0-1.0
+@preprocessor   uso
 ==/UserStyle== */
 @-moz-document domain("linustechtips.com") {
     body {
@@ -127,7 +129,9 @@
         padding: 10px;
     }
 
-
+    .cNotificationSettings_expand {
+        line-height: 40px;
+    }
 
     /* Subforum and sidebar Seperator */
     .ipsDataItem {
@@ -251,55 +255,4 @@
         min-width: 21px;
         line-height: 21px;
     }
-
-
-    /* Element below this line seem to no longer be needed */
-    /* Left for future refrence */
-    /* Member Stats */
-    /*
-    .ipsWidget_stats {
-        padding: 10px;
-    }
-    */
-    /*
-    .cForumList .ipsDataItem_title {
-        font-size: 16px;
-    }
-    */
-    /*
-    .ipsTabs_item {
-        line-height: 2.5;
-        font-size: 14px;
-    }
-    */
-    /*
-    .ipsApp .ipsButton_large {
-        line-height: 2.5;
-    }
-    
-    /*
-    .ipsFieldRow:not(:last-child) {
-        margin-bottom: 10px;
-    }
-    */
-    /*
-    .ipsApp .ipsFieldRow_primary .ipsField_autocomplete,
-    .ipsApp .ipsFieldRow_primary textarea,
-    .ipsApp .ipsFieldRow_primary input[type="text"],
-    .ipsApp .ipsFieldRow_primary input[type="password"],
-    .ipsApp .ipsFieldRow_primary input[type="datetime"],
-    .ipsApp .ipsFieldRow_primary input[type="datetime-local"],
-    .ipsApp .ipsFieldRow_primary input[type="date"],
-    .ipsApp .ipsFieldRow_primary input[type="month"],
-    .ipsApp .ipsFieldRow_primary input[type="time"],
-    .ipsApp .ipsFieldRow_primary input[type="week"],
-    .ipsApp .ipsFieldRow_primary input[type="number"],
-    .ipsApp .ipsFieldRow_primary input[type="email"],
-    .ipsApp .ipsFieldRow_primary input[type="url"],
-    .ipsApp .ipsFieldRow_primary input[type="search"],
-    .ipsApp .ipsFieldRow_primary input[type="tel"],
-    .ipsApp .ipsFieldRow_primary .ipsField_dummy {
-        padding: 0px;
-    }
-    */
 }
