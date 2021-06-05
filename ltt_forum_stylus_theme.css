@@ -1,9 +1,9 @@
 /* ==UserStyle==
-@name           LTT Forum Theme v1.1.6
+@name           LTT Forum Theme v1.2.0
 @namespace      https://github.com/Nayr438/ltt_stylus_theme
 @author         Nayr438
 @description    `A custom Stylus Theme for The Linus Tech Tips Forum. Will work with light or dark theme.`
-@version        1.1.9
+@version        1.2.0
 @license        CC0-1.0
 @preprocessor   uso
 ==/UserStyle== */
@@ -254,5 +254,16 @@
         padding: 0 5px;
         min-width: 21px;
         line-height: 21px;
+    }
+
+    /*  Scale and Center advertisements in Sidebar */
+    #ipsLayout_sidebar > div:first-of-type {
+        display: flex;
+        margin-top: 7px;
+    }
+
+    #ipsLayout_sidebar > div:first-of-type * {
+        max-height: 250px !important;
+        margin: auto;
     }
 }
