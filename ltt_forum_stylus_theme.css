@@ -1,9 +1,9 @@
 /* ==UserStyle==
-@name           LTT Forum Theme v1.2.1
+@name           LTT Forum Theme v1.2.2
 @namespace      https://github.com/Nayr438/ltt_stylus_theme
 @author         Nayr438
 @description    `A custom Stylus Theme for The Linus Tech Tips Forum. Will work with light or dark theme.`
-@version        1.2.1
+@version        1.2.2
 @license        CC0-1.0
 @preprocessor   uso
 ==/UserStyle== */
@@ -96,7 +96,189 @@
         font-size: 16px;
         padding: 5px 15px 5px 15px;
         margin-top: 0px;
+    }1
+
+/* ==UserStyle==
+
+2
+
+@name           LTT Forum Theme v1.2.1
+
+3
+
+@namespace      https://github.com/Nayr438/ltt_stylus_theme
+
+4
+
+@author         Nayr438
+
+5
+
+@description    `A custom Stylus Theme for The Linus Tech Tips Forum. Will work with light or dark theme.`
+
+6
+
+@version        1.2.1
+
+7
+
+@license        CC0-1.0
+
+8
+
+@preprocessor   uso
+
+9
+
+==/UserStyle== */
+
+10
+
+@-moz-document domain("linustechtips.com") {
+
+11
+
+    body {
+
+12
+
+        font-size: 12px;
+
+13
+
     }
+
+14
+
+​
+
+15
+
+    /* Hide Default Logo */
+
+16
+
+    #elLogo img {
+
+17
+
+        visibility: hidden;
+
+18
+
+    }
+
+19
+
+​
+
+20
+
+    /* Embed Alt Logo */
+
+21
+
+    #elLogo {
+
+22
+
+        background: url("https://raw.githubusercontent.com/Nayr438/ltt_stylus_theme/master/images/AltLogoBanner_Unofficial_LTT.png") no-repeat left;
+
+23
+
+        background-size: 350px 61.75px;
+
+24
+
+        min-width: 350px;
+
+25
+
+    }
+
+26
+
+​
+
+27
+
+    /* Hovercard Padding */
+
+28
+
+    .ipsTabs {
+
+29
+
+        --ipsTabs--padding: 8px;
+
+30
+
+    }
+
+31
+
+​
+
+32
+
+    /* Hovercard Remove Shadow */
+
+33
+
+    .ipsHovercard {
+
+34
+
+        box-shadow: none !important;
+
+35
+
+    }
+
+36
+
+​
+
+37
+
+    /* Global Padding */
+
+38
+
+    /*  Member Stats  */
+
+39
+
+    /*  Page Header   */
+
+40
+
+    .ipsPadding {
+
+41
+
+        padding: 10px !important;
+
+42
+
+    }
+
+43
+
+​
+
+44
+
+    /* Global */
+
+45
+
+    /* Sidebar Padding */
+
+46
+
+    .ipsPad,
 
     /* Forum Home Section Post Count */
     .ipsDataItem_statsLarge .ipsDataItem_stats_number {
@@ -199,7 +381,371 @@
     }
 
     /* Sidebar Titles */
-    .ipsWidget_title {
+    .ipsWidget_title {1
+
+/* ==UserStyle==
+
+2
+
+@name           LTT Forum Theme v1.2.1
+
+3
+
+@namespace      https://github.com/Nayr438/ltt_stylus_theme
+
+4
+
+@author         Nayr438
+1
+
+/* ==UserStyle==
+
+2
+
+@name           LTT Forum Theme v1.2.1
+
+3
+
+@namespace      https://github.com/Nayr438/ltt_stylus_theme
+
+4
+
+@author         Nayr438
+
+5
+
+@description    `A custom Stylus Theme for The Linus Tech Tips Forum. Will work with light or dark theme.`
+
+6
+
+@version        1.2.1
+
+7
+
+@license        CC0-1.0
+
+8
+
+@preprocessor   uso
+
+9
+
+==/UserStyle== */
+
+10
+
+@-moz-document domain("linustechtips.com") {
+
+11
+
+    body {
+
+12
+
+        font-size: 12px;
+
+13
+
+    }
+
+14
+
+​
+
+15
+
+    /* Hide Default Logo */
+
+16
+
+    #elLogo img {
+
+17
+
+        visibility: hidden;
+
+18
+
+    }
+
+19
+
+​
+
+20
+
+    /* Embed Alt Logo */
+
+21
+
+    #elLogo {
+
+22
+
+        background: url("https://raw.githubusercontent.com/Nayr438/ltt_stylus_theme/master/images/AltLogoBanner_Unofficial_LTT.png") no-repeat left;
+
+23
+
+        background-size: 350px 61.75px;
+
+24
+
+        min-width: 350px;
+
+25
+
+    }
+
+26
+
+​
+
+27
+
+    /* Hovercard Padding */
+
+28
+
+    .ipsTabs {
+
+29
+
+        --ipsTabs--padding: 8px;
+
+30
+
+    }
+
+31
+
+​
+
+32
+
+    /* Hovercard Remove Shadow */
+
+33
+
+    .ipsHovercard {
+
+34
+
+        box-shadow: none !important;
+
+35
+
+    }
+
+36
+
+​
+
+37
+
+    /* Global Padding */
+
+38
+
+    /*  Member Stats  */
+
+39
+
+    /*  Page Header   */
+
+40
+
+    .ipsPadding {
+
+41
+
+        padding: 10px !important;
+
+42
+
+    }
+
+43
+
+​
+
+44
+
+    /* Global */
+
+45
+
+    /* Sidebar Padding */
+
+46
+
+    .ipsPad,
+5
+
+@description    `A custom Stylus Theme for The Linus Tech Tips Forum. Will work with light or dark theme.`
+
+6
+
+@version        1.2.1
+
+7
+
+@license        CC0-1.0
+
+8
+
+@preprocessor   uso
+
+9
+
+==/UserStyle== */
+
+10
+
+@-moz-document domain("linustechtips.com") {
+
+11
+
+    body {
+
+12
+
+        font-size: 12px;
+
+13
+
+    }
+
+14
+
+​
+
+15
+
+    /* Hide Default Logo */
+
+16
+
+    #elLogo img {
+
+17
+
+        visibility: hidden;
+
+18
+
+    }
+
+19
+
+​
+
+20
+
+    /* Embed Alt Logo */
+
+21
+
+    #elLogo {
+
+22
+
+        background: url("https://raw.githubusercontent.com/Nayr438/ltt_stylus_theme/master/images/AltLogoBanner_Unofficial_LTT.png") no-repeat left;
+
+23
+
+        background-size: 350px 61.75px;
+
+24
+
+        min-width: 350px;
+
+25
+
+    }
+
+26
+
+​
+
+27
+
+    /* Hovercard Padding */
+
+28
+
+    .ipsTabs {
+
+29
+
+        --ipsTabs--padding: 8px;
+
+30
+
+    }
+
+31
+
+​
+
+32
+
+    /* Hovercard Remove Shadow */
+
+33
+
+    .ipsHovercard {
+
+34
+
+        box-shadow: none !important;
+
+35
+
+    }
+
+36
+
+​
+
+37
+
+    /* Global Padding */
+
+38
+
+    /*  Member Stats  */
+
+39
+
+    /*  Page Header   */
+
+40
+
+    .ipsPadding {
+
+41
+
+        padding: 10px !important;
+
+42
+
+    }
+
+43
+
+​
+
+44
+
+    /* Global */
+
+45
+
+    /* Sidebar Padding */
+
+46
+
+    .ipsPad,
         font-size: 14px;
         font-weight: bold;
         padding: 10px;
@@ -214,6 +760,11 @@
     .lmg-card .card-img-a {
         width: unset !important;
         margin: unset;
+    }
+
+    .ipsWidget .card-img {
+        margin-top: -28px;
+        margin-bottom: -28px;
     }
 
     /* Member Stats User Photo */
